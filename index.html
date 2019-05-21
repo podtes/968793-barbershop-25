@@ -2,11 +2,110 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп Бородинский</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <nav class="main-navigation">
+         <img src="img/logo.img" alt="Логотип барбершопа Бородинский">
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul>
+          <li class="login-link">Вход</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="visual-hidden">Барбершоп Бородинский</h1>
+      <section class="features">
+         <h2 class="visual-hidden">Наши преимущества</h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <h3>Быстро</h3>
+            <p>Мы делаем свою рабюоту быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+          </li>
+          <li class="feature-item">
+            <h3>Круто</h3>
+            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          </li>
+          <li class="feature-item">
+            <h3>Дорого</h3>
+            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определеный статус?</p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <h2>Новости</h2>
+          <ul class="news-list">
+            <li class="news-item">
+              <p>Нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
+              <time datetime="2019-01-11" >11 января</time>
+            </li>
+            <li class="news-item">
+              <p>В нашей команде пополнение, борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
+              <time datetime="2019-01-18" >18 января</time>
+            </li>
+            <a class ="button" href="news.html">Все новости</a>
+          </ul>
+      </section>
+      <section class="gallery">
+        <h2>Фотогалерея</h2>
+        <a href="#"><img src="img/foto.jpg" alt="фото барбершопа Бородинский"></a>
+          <span class="button">Назад</span>
+          <span class="button">Вперед</span>
+      </section>
+      <section class="contacts">
+        <h2>Контактная информация</h2>
+        <p>
+          Барбершоп «бородинский» <br>
+          адрес: г. санкт-петербург, б. конюшенная, д. 19/8 <br>
+          телефон: +7 (495) 666-02-66 <br>
+        </p>
+        <p>
+          Время работы: <br>  
+          ПН—ПТ: с 10:00 до 22:00 <br>       
+          СБ—ВС: с 10:00 до 19:00 <br>
+        </p>
+        <li><a class="button" href="#">Как проехать</a></li>
+        <li><a class="button" href="#">Обратная связь</a></li>
+      </section>
+      <section class="order">
+        <h2>Записаться</h2>
+        <p>
+          Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони
+        </p>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <p class="footer-contacts">
+        Барбершоп «бородинский» <br>
+        Адрес: г. Санкт-Петербург, ул. б. Конюшенная, д. 19/8 <br>
+        <a href="map.html">Как нас найти?</a> <br>
+        Телефон: +7 (495) 666-02-66
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+          <li class="social-button"><a href="#">Вконтакте</a></li>
+          <li class="social-button"><a href="#">Фейсбук</a></li>
+          <li class="social-button"><a href="#">Инстаграм</a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано</b>
+        <a href="htmlacademy.ru">htmlacademy.ru</a>
+      </p>
+    </footer>
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p>Введите свой логин и пароль.</p>
+      <!-- Здесь будет форма -->
+      <span class="modal-close">x</span>
+    </section>
   </body>
 </html>
